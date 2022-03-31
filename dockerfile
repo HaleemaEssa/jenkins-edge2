@@ -8,7 +8,7 @@ RUN apt-get clean
 RUN python3 -m pip install pika --upgrade
 RUN pip3 install pandas
 #COPY . .
-COPY rnh.py .
+#COPY rnh.py .
 #CMD ["r.py"]
 #COPY data.csv .
 #CMD ["rnhbooth.py"]
