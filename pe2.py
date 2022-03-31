@@ -24,7 +24,7 @@ csv.register_dialect('csv_dialect',
                     delimiter='[',
                     skipinitialspace=True,
                     quoting=csv.QUOTE_ALL)
-with open('/data/data1.csv', 'r') as csvfile:
+with open('/data1.csv', 'r') as csvfile:
     reader = csv.reader(csvfile, dialect='csv_dialect')
     header=next(reader)
    
