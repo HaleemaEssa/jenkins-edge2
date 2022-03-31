@@ -4,8 +4,8 @@ from csv import reader
 import csv
 # Parse CLODUAMQP_URL (fallback to localhost)
 #url = os.environ.get('CLOUDAMQP_URL', 'amqp://guest:guest@localhost/%2f')
-url = os.environ.get('CLOUDAMQP_URL', 'amqps://xmxasmuw:6ff5SA9lmND2obcLUS2Se1aacrK1Hh-1@snake.rmq2.cloudamqp.com/xmxasmuw/%2f')
-
+#url = os.environ.get('CLOUDAMQP_URL', 'amqps://xmxasmuw:6ff5SA9lmND2obcLUS2Se1aacrK1Hh-1@snake.rmq2.cloudamqp.com/xmxasmuw/%2f')
+url = os.environ.get('CLOUDAMQP_URL', 'amqps://kacojdss:aUd8wEoKcyHLCK46a1_AifxUBDzjsLHi@beaver.rmq.cloudamqp.com/kacojdss')
 params = pika.URLParameters(url)
 params.socket_timeout = 5
 
