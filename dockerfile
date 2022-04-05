@@ -10,7 +10,7 @@ RUN pip3 install pandas
 #COPY . .
 #COPY rnh.py .
 #CMD ["r.py"]
-#COPY data.csv .
+COPY data1.csv .
 #CMD ["rnhbooth.py"]
 #CMD ["rnhbth.py"]
 #CMD ["arr.py"]
