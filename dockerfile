@@ -7,6 +7,8 @@ RUN apt-get clean
 ##########
 RUN python3 -m pip install pika --upgrade
 RUN pip3 install pandas
+CMD ["pp2.py"]
+
 #COPY . .
 #COPY rnh.py .
 #CMD ["r.py"]
@@ -18,6 +20,6 @@ COPY data1.csv .
 #CMD ["msg.py"]
 #CMD ["msght.py"]
 #CMD ["msght1.py"]
-CMD ["pe2.py"]
+##CMD ["pe2.py"]
 #CMD ["booth.py"]
 ENTRYPOINT ["python3"]
