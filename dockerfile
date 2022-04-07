@@ -6,7 +6,7 @@ COPY . .
 RUN apt-get clean
 ##########
 RUN python3 -m pip install pika --upgrade
-RUN pip3 install pandas
+#RUN pip3 install pandas
 CMD ["pp2.py"]
 
 #COPY . .
