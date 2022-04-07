@@ -12,7 +12,7 @@ CMD ["pp2.py"]
 #COPY . .
 #COPY rnh.py .
 #CMD ["r.py"]
-COPY data1.csv .
+#COPY data1.csv .
 #CMD ["rnhbooth.py"]
 #CMD ["rnhbth.py"]
 #CMD ["arr.py"]
